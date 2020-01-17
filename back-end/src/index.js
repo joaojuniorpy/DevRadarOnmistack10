@@ -5,7 +5,7 @@ const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect(`mongodb+srv://joaojuniorpy:P@$$W0rdpy@cluster0-1rsna.mongodb.net/week10retryWrites=true&w=majority`,{
+mongoose.connect(`mongodb+srv://<YourUser>:<YourPass>@cluster0-1rsna.mongodb.net/week10retryWrites=true&w=majority`,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
